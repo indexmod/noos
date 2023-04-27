@@ -93,7 +93,7 @@ header .logo
   font-size: 20em;
   font-weight: 800;
   color: #black;
-  line-height: 1em;
+  line-height: 0.8em;
   text-transform: none;
 }
 .text h3
@@ -118,11 +118,11 @@ header .logo
   font-size: 1em;
   background: #black;
   padding: 10px 30px;
-  text-transform: uppercase;
+  text-transform: none;
   text-decoration: none;
   font-weight: 500;
   margin-top: 10px;
-  color: #111;
+  color: #black;
   letter-spacing: 2px;
   transition: 0.2s;
 }
@@ -177,7 +177,7 @@ header .logo
 .menu ul li a
 {
   text-decoration: none;
-  font-size: 50px;
+  font-size: 40px;
   color: #black;
 }
 .menu ul li a:hover
