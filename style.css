@@ -129,6 +129,7 @@ header .logo
 .text a:hover
 {
   letter-spacing: 6px;
+  color: #black;
 }
 .social
 {
@@ -142,6 +143,7 @@ header .logo
 .social li
 {
   list-style: none;
+  color: #black;
 }
 .social li a
 {
@@ -150,10 +152,12 @@ header .logo
   filter: invert(1);
   transform: scale(0.5);
   transition: 0.5s;
+  color: #black;
 }
 .social li a:hover
 {
   transform: scale(0.5) translateY(-15px);
+  color: #black;
 }
 .menu
 {
@@ -165,14 +169,17 @@ header .logo
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #black;
 }
 .menu ul
 {
   position: relative;
+  color: #black;
 }
 .menu ul li
 {
   list-style: none;
+  color: #black;
 }
 .menu ul li a
 {
@@ -195,9 +202,11 @@ header .logo
   .text h2
   {
     font-size: 9em;
+    color: #black;
   }
   .text h3
   {
     font-size: 1em;
+    color: #black;
   }
 }
