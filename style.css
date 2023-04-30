@@ -149,7 +149,6 @@ header .logo
 {
   display: inline-block;
   margin-right: 20px;
-  filter: invert(1);
   transform: scale(0.5);
   transition: 0.5s;
   color: #black;
@@ -201,12 +200,12 @@ header .logo
   }
   .text h2
   {
-    font-size: 1em;
+    font-size: 3em;
     color: #black;
   }
   .text h3
   {
-    font-size: 1em;
+    font-size: 2em;
     color: #black;
   }
 }
@@ -232,6 +231,11 @@ a {
 
 a:hover {
   text-decoration: none; /* добавляем подчеркивание при наведении курсора мыши */
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
 }
 
 /* Изменение стиля рамки для ссылок */
