@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /video.webm
+Disallow: /video.mp4
+Disallow: /video.mov
+
